@@ -1,5 +1,4 @@
 import subprocess
-import nmap
 from colorama import Fore, Style
 from bs4 import BeautifulSoup
 import re
