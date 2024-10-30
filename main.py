@@ -1,7 +1,6 @@
 # Created by Gth
 
 import subprocess
-import nmap
 from colorama import Fore, Style
 from bs4 import BeautifulSoup
 import re
@@ -31,6 +30,8 @@ def logo():
     print(Fore.GREEN + "Created by" + Style.RESET_ALL)
     print(Fore.LIGHTRED_EX + "Gth" + Style.RESET_ALL)
     ()
+
+logo()
 
 election = input(Fore.BLUE + """\nSelect an option:
             1. Recon
